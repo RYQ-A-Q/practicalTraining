@@ -35,3 +35,5 @@
 2024-12-16 14:26:48,399-http-nio-8080-exec-1-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-12-16 14:26:48,399-http-nio-8080-exec-1-[INFO ]-Initializing Servlet 'dispatcherServlet'
 2024-12-16 14:26:48,399-http-nio-8080-exec-1-[INFO ]-Completed initialization in 0 ms
+2024-12-16 14:48:56,146-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 14:48:56,150-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
