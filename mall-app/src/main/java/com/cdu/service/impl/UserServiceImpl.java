@@ -1,6 +1,7 @@
 package com.cdu.service.impl;
 
 import com.cdu.commonts.MallConstants;
+import com.cdu.mapper.UserMapper;
 import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.pojo.entity.User;
 import com.cdu.service.UserService;
