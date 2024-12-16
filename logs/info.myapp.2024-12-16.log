@@ -37,3 +37,323 @@
 2024-12-16 14:26:48,399-http-nio-8080-exec-1-[INFO ]-Completed initialization in 0 ms
 2024-12-16 14:48:56,146-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
 2024-12-16 14:48:56,150-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:09:21,194-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 21680 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:09:21,198-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:09:21,198-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:09:21,651-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:09:21,909-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:09:21,916-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:09:21,917-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:09:21,917-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:09:21,992-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:09:21,992-main-[INFO ]-Root WebApplicationContext: initialization completed in 766 ms
+2024-12-16 15:09:22,138-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:09:22,200-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:09:22,535-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:09:22,633-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:09:22,646-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:09:22,654-main-[INFO ]-Started MallAppApplication in 1.768 seconds (JVM running for 2.646)
+2024-12-16 15:14:25,297-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:14:25,301-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:14:27,522-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 20556 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:14:27,524-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:14:27,525-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:14:27,932-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:14:28,174-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:14:28,181-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:14:28,181-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:14:28,181-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:14:28,253-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:14:28,253-main-[INFO ]-Root WebApplicationContext: initialization completed in 701 ms
+2024-12-16 15:14:28,374-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:14:28,433-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:14:28,750-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:14:28,838-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:14:28,849-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:14:28,856-main-[INFO ]-Started MallAppApplication in 1.625 seconds (JVM running for 2.431)
+2024-12-16 15:14:49,627-http-nio-8080-exec-1-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:14:49,627-http-nio-8080-exec-1-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:14:49,628-http-nio-8080-exec-1-[INFO ]-Completed initialization in 1 ms
+2024-12-16 15:20:19,601-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:20:19,606-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:20:21,950-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 27204 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:20:21,953-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:20:21,954-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:20:22,360-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:20:22,629-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:20:22,635-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:20:22,636-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:20:22,636-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:20:22,711-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:20:22,711-main-[INFO ]-Root WebApplicationContext: initialization completed in 732 ms
+2024-12-16 15:20:22,854-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:20:22,916-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:20:23,244-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:20:23,336-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:20:23,348-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:20:23,354-main-[INFO ]-Started MallAppApplication in 1.712 seconds (JVM running for 2.584)
+2024-12-16 15:22:06,160-http-nio-8080-exec-1-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:22:06,160-http-nio-8080-exec-1-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:22:06,161-http-nio-8080-exec-1-[INFO ]-Completed initialization in 1 ms
+2024-12-16 15:24:25,806-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:24:25,815-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:24:28,162-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 4176 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:24:28,164-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:24:28,165-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:24:28,553-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:24:28,789-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:24:28,796-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:24:28,796-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:24:28,796-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:24:28,867-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:24:28,867-main-[INFO ]-Root WebApplicationContext: initialization completed in 680 ms
+2024-12-16 15:24:28,990-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:24:29,048-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:24:29,367-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:24:29,461-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:24:29,472-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:24:29,479-main-[INFO ]-Started MallAppApplication in 1.598 seconds (JVM running for 2.544)
+2024-12-16 15:25:01,029-http-nio-8080-exec-3-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:25:01,029-http-nio-8080-exec-3-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:25:01,030-http-nio-8080-exec-3-[INFO ]-Completed initialization in 1 ms
+2024-12-16 15:25:53,925-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:25:53,931-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:26:01,618-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 26796 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:26:01,620-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:26:01,621-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:26:02,013-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:26:02,249-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:26:02,256-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:26:02,256-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:26:02,256-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:26:02,326-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:26:02,326-main-[INFO ]-Root WebApplicationContext: initialization completed in 682 ms
+2024-12-16 15:26:02,459-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:26:02,519-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:26:02,841-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:26:02,938-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:26:02,950-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:26:02,957-main-[INFO ]-Started MallAppApplication in 1.637 seconds (JVM running for 2.396)
+2024-12-16 15:26:07,788-http-nio-8080-exec-1-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:26:07,789-http-nio-8080-exec-1-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:26:07,789-http-nio-8080-exec-1-[INFO ]-Completed initialization in 0 ms
+2024-12-16 15:26:45,085-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:26:45,090-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:26:47,384-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 5796 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:26:47,387-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:26:47,387-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:26:47,775-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:26:48,011-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:26:48,018-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:26:48,018-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:26:48,018-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:26:48,086-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:26:48,086-main-[INFO ]-Root WebApplicationContext: initialization completed in 675 ms
+2024-12-16 15:26:48,213-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:26:48,270-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:26:48,592-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:26:48,686-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:26:48,698-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:26:48,705-main-[INFO ]-Started MallAppApplication in 1.61 seconds (JVM running for 2.446)
+2024-12-16 15:26:57,337-http-nio-8080-exec-2-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:26:57,338-http-nio-8080-exec-2-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:26:57,338-http-nio-8080-exec-2-[INFO ]-Completed initialization in 0 ms
+2024-12-16 15:28:02,919-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:28:02,923-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:28:05,267-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 14688 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:28:05,270-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:28:05,270-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:28:05,660-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:28:05,944-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:28:05,951-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:28:05,951-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:28:05,951-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:28:06,030-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:28:06,030-main-[INFO ]-Root WebApplicationContext: initialization completed in 736 ms
+2024-12-16 15:28:06,163-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:28:06,226-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:28:06,572-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:28:06,662-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:28:06,674-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:28:06,681-main-[INFO ]-Started MallAppApplication in 1.716 seconds (JVM running for 2.525)
+2024-12-16 15:29:41,867-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:29:41,872-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:29:44,239-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 17608 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:29:44,242-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:29:44,242-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:29:44,646-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:29:44,900-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:29:44,907-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:29:44,907-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:29:44,907-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:29:44,984-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:29:44,984-main-[INFO ]-Root WebApplicationContext: initialization completed in 715 ms
+2024-12-16 15:29:45,126-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:29:45,190-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:29:45,516-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:29:45,610-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:29:45,622-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:29:45,629-main-[INFO ]-Started MallAppApplication in 1.694 seconds (JVM running for 2.62)
+2024-12-16 15:29:51,929-http-nio-8080-exec-3-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:29:51,929-http-nio-8080-exec-3-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:29:51,930-http-nio-8080-exec-3-[INFO ]-Completed initialization in 1 ms
+2024-12-16 15:33:02,587-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:33:02,592-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:33:05,750-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 20500 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:33:05,750-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:33:05,752-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:33:05,752-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:33:06,155-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:33:06,415-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:33:06,421-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:33:06,421-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:33:06,422-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:33:06,499-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:33:06,499-main-[INFO ]-Root WebApplicationContext: initialization completed in 722 ms
+2024-12-16 15:33:06,626-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:33:06,689-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:33:07,025-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:33:07,124-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:33:07,136-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:33:07,143-main-[INFO ]-Started MallAppApplication in 1.688 seconds (JVM running for 2.562)
+2024-12-16 15:33:13,168-http-nio-8080-exec-4-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:33:13,168-http-nio-8080-exec-4-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:33:13,169-http-nio-8080-exec-4-[INFO ]-Completed initialization in 0 ms
+2024-12-16 15:33:19,834-http-nio-8080-exec-3-[WARN ]-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2024-12-16 15:35:58,229-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:35:58,235-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:36:00,607-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:36:00,608-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 13744 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:36:00,608-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:36:00,609-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:36:01,005-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:36:01,262-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:36:01,269-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:36:01,269-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:36:01,269-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:36:01,344-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:36:01,344-main-[INFO ]-Root WebApplicationContext: initialization completed in 711 ms
+2024-12-16 15:36:01,478-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:36:01,540-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:36:01,877-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:36:01,974-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:36:01,986-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:36:01,993-main-[INFO ]-Started MallAppApplication in 1.676 seconds (JVM running for 2.602)
+2024-12-16 15:36:38,389-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:36:38,393-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:36:41,000-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:36:41,002-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 13788 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:36:41,003-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:36:41,003-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:36:41,445-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:36:41,721-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:36:41,727-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:36:41,727-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:36:41,727-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:36:41,802-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:36:41,803-main-[INFO ]-Root WebApplicationContext: initialization completed in 775 ms
+2024-12-16 15:36:41,933-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:36:41,989-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:36:42,312-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:36:42,411-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:36:42,423-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:36:42,430-main-[INFO ]-Started MallAppApplication in 1.765 seconds (JVM running for 2.915)
+2024-12-16 15:36:54,856-http-nio-8080-exec-1-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:36:54,856-http-nio-8080-exec-1-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:36:54,857-http-nio-8080-exec-1-[INFO ]-Completed initialization in 1 ms
+2024-12-16 15:37:07,727-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:37:07,732-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:37:43,214-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:37:43,214-main-[INFO ]-Starting MallAppApplication using Java 11.0.22 on LAPTOP-RYQPC001 with PID 23684 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:37:43,216-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:37:43,216-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:37:43,660-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:37:44,082-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:37:44,089-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:37:44,089-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:37:44,090-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:37:44,168-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:37:44,168-main-[INFO ]-Root WebApplicationContext: initialization completed in 926 ms
+2024-12-16 15:37:44,300-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:37:44,376-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:37:44,757-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:37:44,884-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:37:44,899-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:37:44,907-main-[INFO ]-Started MallAppApplication in 1.986 seconds (JVM running for 2.813)
+2024-12-16 15:38:13,419-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:38:13,425-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:40:36,956-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:40:36,957-main-[INFO ]-Starting MallAppApplication using Java 19.0.2 on LAPTOP-RYQPC001 with PID 25604 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:40:36,958-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:40:36,958-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:40:37,336-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:40:37,576-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:40:37,581-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:40:37,582-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:40:37,582-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:40:37,651-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:40:37,651-main-[INFO ]-Root WebApplicationContext: initialization completed in 663 ms
+2024-12-16 15:40:37,779-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:40:37,839-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:40:38,185-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:40:38,276-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:40:38,289-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:40:38,296-main-[INFO ]-Started MallAppApplication in 1.619 seconds (JVM running for 2.132)
+2024-12-16 15:40:40,716-http-nio-8080-exec-1-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:40:40,717-http-nio-8080-exec-1-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:40:40,717-http-nio-8080-exec-1-[INFO ]-Completed initialization in 0 ms
+2024-12-16 15:40:40,784-http-nio-8080-exec-1-[INFO ]-用户注册信息:UserRegDTO(username=admin, password=aaa123, rePassword=aaa123)
+2024-12-16 15:40:43,498-http-nio-8080-exec-3-[INFO ]-用户注册信息:UserRegDTO(username=admin, password=aaa123, rePassword=aaa123)
+2024-12-16 15:41:04,314-http-nio-8080-exec-4-[INFO ]-用户注册信息:UserRegDTO(username=admin, password=aaa123, rePassword=aaa123)
+2024-12-16 15:41:14,286-http-nio-8080-exec-5-[INFO ]-用户注册信息:UserRegDTO(username=admin, password=aaa123, rePassword=aaa123)
+2024-12-16 15:41:31,107-http-nio-8080-exec-6-[INFO ]-用户注册信息:UserRegDTO(username=admin, password=aaa12323, rePassword=aaa12323)
+2024-12-16 15:42:21,281-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:42:21,284-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:43:46,212-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:43:46,213-main-[INFO ]-Starting MallAppApplication using Java 19.0.2 on LAPTOP-RYQPC001 with PID 19368 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:43:46,213-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:43:46,213-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:43:46,622-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:43:46,925-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:43:46,930-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:43:46,931-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:43:46,931-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:43:47,007-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:43:47,007-main-[INFO ]-Root WebApplicationContext: initialization completed in 765 ms
+2024-12-16 15:43:47,134-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:43:47,198-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:43:47,537-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:43:47,632-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:43:47,645-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:43:47,652-main-[INFO ]-Started MallAppApplication in 1.753 seconds (JVM running for 2.277)
+2024-12-16 15:43:47,690-http-nio-8080-exec-2-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:43:47,690-http-nio-8080-exec-2-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:43:47,691-http-nio-8080-exec-2-[INFO ]-Completed initialization in 1 ms
+2024-12-16 15:43:47,789-http-nio-8080-exec-2-[WARN ]-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'userRegDTO' on field 'rePassword': rejected value [aaa]; codes [Length.userRegDTO.rePassword,Length.rePassword,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegDTO.rePassword,rePassword]; arguments []; default message [rePassword],12,6]; default message [密码长度为6-12位]<EOL>Field error in object 'userRegDTO' on field 'password': rejected value [aaa]; codes [Length.userRegDTO.password,Length.password,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegDTO.password,password]; arguments []; default message [password],12,6]; default message [密码长度为6-12位]]
+2024-12-16 15:43:49,332-http-nio-8080-exec-6-[WARN ]-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'userRegDTO' on field 'password': rejected value [aaa]; codes [Length.userRegDTO.password,Length.password,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegDTO.password,password]; arguments []; default message [password],12,6]; default message [密码长度为6-12位]<EOL>Field error in object 'userRegDTO' on field 'rePassword': rejected value [aaa]; codes [Length.userRegDTO.rePassword,Length.rePassword,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegDTO.rePassword,rePassword]; arguments []; default message [rePassword],12,6]; default message [密码长度为6-12位]]
+2024-12-16 15:43:57,218-http-nio-8080-exec-4-[INFO ]-用户注册信息:UserRegDTO(username=admin, password=aaa123, rePassword=aaa123)
+2024-12-16 15:44:48,127-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:44:48,130-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
+2024-12-16 15:45:28,165-background-preinit-[INFO ]-HV000001: Hibernate Validator 6.2.5.Final
+2024-12-16 15:45:28,168-main-[INFO ]-Starting MallAppApplication using Java 19.0.2 on LAPTOP-RYQPC001 with PID 17284 (D:\ProjectsRYQ\cdu-app\mall-app\target\classes started by rryq in D:\ProjectsRYQ\cdu-app)
+2024-12-16 15:45:28,168-main-[DEBUG]-Running with Spring Boot v2.7.6, Spring v5.3.24
+2024-12-16 15:45:28,168-main-[INFO ]-The following 1 profile is active: "dev"
+2024-12-16 15:45:28,589-main-[WARN ]-No MyBatis mapper was found in '[com.cdu]' package. Please check your configuration.
+2024-12-16 15:45:28,884-main-[INFO ]-Tomcat initialized with port(s): 8080 (http)
+2024-12-16 15:45:28,895-main-[INFO ]-Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:45:28,895-main-[INFO ]-Starting service [Tomcat]
+2024-12-16 15:45:28,895-main-[INFO ]-Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-12-16 15:45:28,987-main-[INFO ]-Initializing Spring embedded WebApplicationContext
+2024-12-16 15:45:28,988-main-[INFO ]-Root WebApplicationContext: initialization completed in 783 ms
+2024-12-16 15:45:29,125-main-[INFO ]-Adding welcome page: class path resource [static/index.html]
+2024-12-16 15:45:29,196-main-[INFO ]-Init DruidDataSource
+2024-12-16 15:45:29,564-main-[INFO ]-{dataSource-1} inited
+2024-12-16 15:45:29,664-main-[INFO ]-Starting ProtocolHandler ["http-nio-8080"]
+2024-12-16 15:45:29,681-main-[INFO ]-Tomcat started on port(s): 8080 (http) with context path ''
+2024-12-16 15:45:29,689-main-[INFO ]-Started MallAppApplication in 1.853 seconds (JVM running for 2.525)
+2024-12-16 15:45:33,633-http-nio-8080-exec-2-[INFO ]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 15:45:33,634-http-nio-8080-exec-2-[INFO ]-Initializing Servlet 'dispatcherServlet'
+2024-12-16 15:45:33,634-http-nio-8080-exec-2-[INFO ]-Completed initialization in 0 ms
+2024-12-16 15:45:33,705-http-nio-8080-exec-2-[WARN ]-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'userRegDTO' on field 'username': rejected value []; codes [NotBlank.userRegDTO.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userRegDTO.username,username]; arguments []; default message [username]]; default message [用户名不能为空]]
+2024-12-16 15:47:15,144-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closing ...
+2024-12-16 15:47:15,148-SpringApplicationShutdownHook-[INFO ]-{dataSource-1} closed
