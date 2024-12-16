@@ -2,3 +2,6 @@
 spring:
   profiles:
     active: dev  #激活dev环境
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
