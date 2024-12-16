@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="7791ff82-f763-4dd0-b1ce-43775f059412" />
+      <option name="name" value="7791ff82-f763-4dd0-b1ce-43775f059412" />
+      <option name="url" value="https://maven.aliyun.com/repository/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="21caeb24-dd50-4969-ab93-a5e7a04a5840" />
+      <option name="name" value="21caeb24-dd50-4969-ab93-a5e7a04a5840" />
+      <option name="url" value="https://maven.aliyun.com/repository/central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="150aff7e-03fe-4cc0-a140-174ee4764f26" />
+      <option name="name" value="150aff7e-03fe-4cc0-a140-174ee4764f26" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="02fc739c-0d12-4791-8391-0f7905191d4b" />
+      <option name="name" value="02fc739c-0d12-4791-8391-0f7905191d4b" />
+      <option name="url" value="http://repo.spring.io/release/" />
+    </remote-repository>
+  </component>
+</project>
