@@ -1,4 +1,4 @@
-package com.cdu.commonts;
+package com.cdu.commons;
 
 import lombok.Getter;
 

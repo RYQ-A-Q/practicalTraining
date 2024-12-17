@@ -1,6 +1,9 @@
 package com.cdu.service.impl;
 
-import com.cdu.commonts.MallConstants;
+import com.cdu.commons.MallConstants;
+import com.cdu.commons.R;
+import com.cdu.commons.ServiceCode;
+import com.cdu.commons.ServiceException;
 import com.cdu.mapper.UserMapper;
 import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
@@ -27,16 +30,8 @@ public class UserServiceImpl implements UserService {
         //判断密码是否一致
         if (!userRegDTO.getPassword().equals(userRegDTO.getRePassword())) {
             //密码与确认密码不一致
-            // todo 抛出异常
+            throw new ServiceException("确认密码与密码不一致", ServiceCode.DATA_CHECK_ERROR);
         }
-        if(userMapper.findByUsername(userRegDTO.getUsername())!=null){
-            log.debug("用户名已存在");
-          return;
-
-        }
-        //密码与确认密码一致
-        //对密码进行加密
-        //获取盐值
         String salt = UUID.randomUUID().toString().replace("-", "");
         //使用盐值+密码+散列次数进行加密
         String password = MD5Utils.enctype(userRegDTO.getPassword(), salt, MallConstants.HASH_TIME);
@@ -56,27 +51,25 @@ public class UserServiceImpl implements UserService {
         try {
             result = userMapper.insert(user);
         } catch (Exception e) {
-            // todo 抛异常
+            throw new ServiceException("注册失败:数据库错误",ServiceCode.INSERT_ERROR);
         }
         if (result != 1) {
-            // todo 抛异常
+            throw new ServiceException("注册失败:SQL语句执行失败",ServiceCode.INSERT_ERROR);
         }
         //执行成功了
     }
 
     @Override
-    public User login(UserLoginDTO userLoginDTO) {
+    public R<User> login(UserLoginDTO userLoginDTO) {
         User realUser = userMapper.findByUsername(userLoginDTO.getUsername());
         if(realUser==null){
-            log.warn("用户不存在");
-            return null;
+            throw new ServiceException("该用户不存在，请检查用户名", ServiceCode.LOGIN_ERROR);
         }
         String password = MD5Utils.enctype(userLoginDTO.getPassword(), realUser.getSalt(), MallConstants.HASH_TIME);
         if (!realUser.getPassword().equals(password)) {
-            log.debug("密码不正确");
-            return null;
+            throw new ServiceException("密码错误", ServiceCode.LOGIN_ERROR);
         }
         log.debug("登录成功");
-        return realUser;
+        return R.ok("登录成功",realUser);
     }
 }

@@ -1,4 +1,4 @@
-package com.cdu.commonts;
+package com.cdu.commons;
 
 public class MallConstants {
     /**散列次数 */

@@ -1,5 +1,6 @@
 package com.cdu.controller;
 
+import com.cdu.commons.R;
 import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.service.UserService;
@@ -21,10 +22,10 @@ public class UserController {
     @Autowired
     private UserService userService;
     @PostMapping("reg")//注册
-    public Object register( @Validated UserRegDTO userRegDTO){
+    public R<Void> register(@Validated UserRegDTO userRegDTO){
         log.debug("用户注册信息:{}",userRegDTO);
         userService.reg(userRegDTO);
-        return "注册成功";
+        return R.ok("注册成功");
     }
     @PostMapping("login")//登录
     public Object login(@Validated UserLoginDTO userLoginDTO){
