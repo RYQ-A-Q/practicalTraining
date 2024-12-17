@@ -1,5 +1,6 @@
 package com.cdu.controller;
 
+import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -26,7 +27,10 @@ public class UserController {
         return "注册成功";
     }
     @PostMapping("login")//登录
-    public Object login(String username,String password){
-        return userService.login(username,password);
+//    public Object login(String username,String password){
+//        return userService.login(username,password);
+//    }
+    public Object login(@Validated UserLoginDTO userLoginDTO){
+        return userService.login(userLoginDTO);
     }
 }

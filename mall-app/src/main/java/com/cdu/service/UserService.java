@@ -1,5 +1,6 @@
 package com.cdu.service;
 
+import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.pojo.entity.User;
 
@@ -12,9 +13,8 @@ public interface UserService {
 
     /**
      * 用户登录
-     * @param username 用户名
-     * @param password 用户密码（加密前）
+     * @param userLoginDTO 用户登录信息
      */
-    User login(String username, String password);
+    User login(UserLoginDTO userLoginDTO);
 
 }

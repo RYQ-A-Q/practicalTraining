@@ -2,6 +2,7 @@ package com.cdu.service.impl;
 
 import com.cdu.commonts.MallConstants;
 import com.cdu.mapper.UserMapper;
+import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.pojo.entity.User;
 import com.cdu.service.UserService;
@@ -59,13 +60,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User login(String username, String password) {
-        User realUser = userMapper.queryByUsername(username);
+    public User login(UserLoginDTO userLoginDTO) {
+        User realUser = userMapper.queryByUsername(userLoginDTO.getUsername());
         if(realUser==null){
             log.warn("用户不存在");
             return null;
         }
-        password = MD5Utils.enctype(password, realUser.getSalt(), MallConstants.HASH_TIME);
+        String password = MD5Utils.enctype(userLoginDTO.getPassword(), realUser.getSalt(), MallConstants.HASH_TIME);
         if (!realUser.getPassword().equals(password)) {
             log.debug("密码不正确");
             return null;
