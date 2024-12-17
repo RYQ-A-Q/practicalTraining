@@ -27,9 +27,6 @@ public class UserController {
         return "注册成功";
     }
     @PostMapping("login")//登录
-//    public Object login(String username,String password){
-//        return userService.login(username,password);
-//    }
     public Object login(@Validated UserLoginDTO userLoginDTO){
         return userService.login(userLoginDTO);
     }

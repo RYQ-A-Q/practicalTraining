@@ -61,7 +61,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User login(UserLoginDTO userLoginDTO) {
-        User realUser = userMapper.queryByUsername(userLoginDTO.getUsername());
+        User realUser = userMapper.findByUsername(userLoginDTO.getUsername());
         if(realUser==null){
             log.warn("用户不存在");
             return null;

@@ -5,7 +5,7 @@
     insert into t_user(username,password,salt,is_delete,created_user,created_time,modified_user,modified_time)
     values(#{username},#{password},#{salt},#{isDelete},#{createdUser},#{createdTime},#{modifiedUser},#{modifiedTime})
     </insert>
-    <select id="queryByUsername" resultType="com.cdu.pojo.entity.User">
+    <select id="findByUsername" resultType="com.cdu.pojo.entity.User">
         select * from t_user where username = #{username}
     </select>
 </mapper>

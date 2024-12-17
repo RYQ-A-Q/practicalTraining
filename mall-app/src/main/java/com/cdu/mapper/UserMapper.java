@@ -12,9 +12,9 @@ public interface UserMapper {
      */
     int insert(User user);
     /**
-     * 根据用户名查询用户
+     * 根据用户名查询用户1
      * @param username 用户名
      * @return
      */
-    User queryByUsername(String username);
+    User findByUsername(String username);
 }

@@ -5,6 +5,9 @@ import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotBlank;
 
+/**
+ * 用户登录数据传输对象
+ */
 @Data
 public class UserLoginDTO {
     //用户名
