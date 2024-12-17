@@ -8,6 +8,7 @@ import com.cdu.mapper.UserMapper;
 import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.pojo.entity.User;
+import com.cdu.pojo.vo.LoginUserVO;
 import com.cdu.service.UserService;
 import com.cdu.utils.MD5Utils;
 import lombok.extern.slf4j.Slf4j;
@@ -60,15 +61,20 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public R<User> login(UserLoginDTO userLoginDTO) {
+    public R<LoginUserVO> login(UserLoginDTO userLoginDTO) {
         User realUser = userMapper.findByUsername(userLoginDTO.getUsername());
         if(realUser==null){
-            throw new ServiceException("该用户不存在，请检查用户名", ServiceCode.LOGIN_ERROR);
+            throw new ServiceException("该用户不存在，请检查用户名", ServiceCode.DATA_NOT_FOUND);
         }
         String password = MD5Utils.enctype(userLoginDTO.getPassword(), realUser.getSalt(), MallConstants.HASH_TIME);
         if (!realUser.getPassword().equals(password)) {
             throw new ServiceException("密码错误", ServiceCode.LOGIN_ERROR);
         }
-        return R.ok("登录成功",realUser);
+        LoginUserVO userVO = new LoginUserVO();
+        userVO.setId(realUser.getId());
+        userVO.setUsername(realUser.getUsername());
+        userVO.setAvatar(realUser.getAvatar());
+        userVO.setToken("...");
+        return R.ok("登录成功",userVO);
     }
 }

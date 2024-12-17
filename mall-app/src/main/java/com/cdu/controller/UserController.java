@@ -3,6 +3,7 @@ package com.cdu.controller;
 import com.cdu.commons.R;
 import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
+import com.cdu.pojo.vo.LoginUserVO;
 import com.cdu.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,7 @@ public class UserController {
         return R.ok("注册成功");
     }
     @PostMapping("login")//登录
-    public Object login(@Validated UserLoginDTO userLoginDTO){
+    public R<LoginUserVO> login(@Validated UserLoginDTO userLoginDTO){
         return userService.login(userLoginDTO);
     }
 }

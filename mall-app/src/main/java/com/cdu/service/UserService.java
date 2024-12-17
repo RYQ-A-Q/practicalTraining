@@ -3,7 +3,7 @@ package com.cdu.service;
 import com.cdu.commons.R;
 import com.cdu.pojo.dto.UserLoginDTO;
 import com.cdu.pojo.dto.UserRegDTO;
-import com.cdu.pojo.entity.User;
+import com.cdu.pojo.vo.LoginUserVO;
 
 public interface UserService {
     /**
@@ -16,6 +16,6 @@ public interface UserService {
      * 用户登录
      * @param userLoginDTO 用户登录信息
      */
-    R<User> login(UserLoginDTO userLoginDTO);
+    R<LoginUserVO> login(UserLoginDTO userLoginDTO);
 
 }
