@@ -10,6 +10,7 @@ import com.cdu.pojo.dto.UserRegDTO;
 import com.cdu.pojo.entity.User;
 import com.cdu.pojo.vo.LoginUserVO;
 import com.cdu.service.UserService;
+import com.cdu.utils.JwtUtils;
 import com.cdu.utils.MD5Utils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,7 +75,7 @@ public class UserServiceImpl implements UserService {
         userVO.setId(realUser.getId());
         userVO.setUsername(realUser.getUsername());
         userVO.setAvatar(realUser.getAvatar());
-        userVO.setToken("...");
+        userVO.setToken(JwtUtils.generateToken(realUser));
         return R.ok("登录成功",userVO);
     }
 }

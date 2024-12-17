@@ -13,7 +13,9 @@ public enum ServiceCode {
     REQUEST_ERROR(4008),//错误请求
     DATA_CHECK_ERROR(4009),//数据校验有误
     PATH_NOT_FOUND(40010),//请求路径不存在
+    ERROR_TOKEN(40011),//token错误
     UN_KNOW_ERROR(9999);//未知错误
+
     //....
     private int code;
 
