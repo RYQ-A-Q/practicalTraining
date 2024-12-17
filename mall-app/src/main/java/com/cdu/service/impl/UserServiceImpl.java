@@ -29,6 +29,11 @@ public class UserServiceImpl implements UserService {
             //密码与确认密码不一致
             // todo 抛出异常
         }
+        if(userMapper.findByUsername(userRegDTO.getUsername())!=null){
+            log.debug("用户名已存在");
+          return;
+
+        }
         //密码与确认密码一致
         //对密码进行加密
         //获取盐值
