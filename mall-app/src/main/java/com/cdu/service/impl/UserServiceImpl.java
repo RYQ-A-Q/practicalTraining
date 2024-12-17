@@ -69,7 +69,6 @@ public class UserServiceImpl implements UserService {
         if (!realUser.getPassword().equals(password)) {
             throw new ServiceException("密码错误", ServiceCode.LOGIN_ERROR);
         }
-        log.debug("登录成功");
         return R.ok("登录成功",realUser);
     }
 }
